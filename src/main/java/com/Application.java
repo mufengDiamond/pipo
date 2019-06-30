@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.context.annotation.ImportResource;
 
-@SpringBootApplication(scanBasePackages = {"com.test"})
+@SpringBootApplication(scanBasePackages = {"com"})
 @MapperScan("com.test.module.mapper")
 @ImportResource(locations = {"classpath:springMVC-servlet.xml"})
 @EnableAutoConfiguration
